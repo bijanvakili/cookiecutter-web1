@@ -1,0 +1,10 @@
+{
+    "author_name": "Bijan Vakili",
+    "author_email": "bijanvakili@users.noreply.github.com",    
+    "project_name": "My Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "My Frontend Project",
+    "version": "0.1.0",
+    "year": "{% now 'utc', '%Y' %}",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}

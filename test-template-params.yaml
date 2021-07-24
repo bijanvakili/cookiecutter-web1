@@ -1,0 +1,8 @@
+default_context:
+  author_name: Najib Ilikav
+  author_email: najib_ilikav@hotmail.com
+  project_repo_name: 'test-package'
+  project_slug: 'test_package'
+  project_short_description: 'Test package'
+  version: '0.1.0'
+  year: 2021
