@@ -1,0 +1,8 @@
+.prettierignore
+.yarn/
+.pnp.js
+dist/
+tmp/
+*.sh
+yarn.lock
+*.ejs
