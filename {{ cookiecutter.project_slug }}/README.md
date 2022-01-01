@@ -1,6 +1,4 @@
-# Drag Test
-
-{{ cookiecutter.project_short_description }}
+# {{ cookiecutter.project_short_description }}
 
 ## Minimal Requirements
 
@@ -11,7 +9,6 @@
 
 Install all the required Javascript packages.
 
-    yarn set version berry
     yarn install
 
 Set up for VSCode

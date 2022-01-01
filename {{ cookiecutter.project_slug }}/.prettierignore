@@ -1,8 +1,13 @@
+.editorconfig
+.eslintignore
 .prettierignore
+.gitignore
 .yarn/
 .pnp.js
 dist/
 tmp/
+LICENSE
+*.pnp.*
 *.sh
 yarn.lock
 *.ejs

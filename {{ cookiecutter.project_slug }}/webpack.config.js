@@ -60,7 +60,16 @@ const commonConfig = (env, argv) => {
         },
         {
           test: /\.svg$/,
-          use: "file-loader",
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                emitFile: true,
+                name: "[name].[ext]",
+              },
+            },
+          ],
+          exclude: /node_modules/,
         },
       ],
     },
